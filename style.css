@@ -1,0 +1,33 @@
+ body {
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    /* background-position-y: bottom; */
+    background-attachment: fixed;
+    background-size: cover;
+    /* CENTER ITEMS? */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.img-container {
+    background-color: rgb(75, 75, 155);
+    padding: 100px
+}
+
+.info-container {
+    background-color: rgb(75, 75, 155);
+    color: white;
+    padding: 80px;
+    margin-top: 100px;
+}
+
+.gb-left {
+    background: rgb(255, 255, 255);
+    color: rgb(16, 14, 32);
+    margin:40px;
+    padding: 10px;
+    text-align: center;
+}
