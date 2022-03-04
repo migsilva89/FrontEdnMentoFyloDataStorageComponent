@@ -23,12 +23,13 @@
 
 .main-container {
     max-width:375px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .img-container {
     background-color: var(--darkBlue);
     padding: 40px;
-    margin:20px;
     border-radius: 12px 100px 12px 12px;
 }
 
@@ -37,12 +38,11 @@
     color: white;
     padding:30px;
     padding-top:20px;
+    margin-top:20px;
     padding-bottom:20px;
-    margin:20px;
     border-radius: 12px 12px 12px 12px;
     position:relative;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
     text-align: center;
 }
 
@@ -54,6 +54,12 @@
     position:absolute;
 }
 
+.description {
+    padding-left:15px;
+    padding-right:15px;
+    font-size:13px;
+}
+
 .slider {
     width:100%;
 }
@@ -63,7 +69,6 @@
     align-items: center;
     margin-top: 25px;
 }
-
 
 .icon {
     padding: 6px;
