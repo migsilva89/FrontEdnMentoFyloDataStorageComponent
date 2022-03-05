@@ -10,7 +10,6 @@
  body {
     background-image: url(./images/bg-mobile.png);
     background-repeat: no-repeat;
-    /* background-position-y: bottom; */
     background-attachment: fixed;
     background-size: cover;
     /* CENTER ITEMS? */
@@ -19,12 +18,6 @@
     justify-content: center;
     margin-top: 180px;
     margin-bottom: 130px;
-}
-
-.main-container {
-    max-width:375px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .img-container {
@@ -158,3 +151,62 @@
     font-weight: bold;
   }
   
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container {
+        margin-right:18px;
+        padding-right:120px;
+    }
+
+    .info-container {
+        width: 500px;
+    }
+
+    .border {
+        width:500px;
+        height:19px;
+        border-radius:10px;
+        background-color: var(--veryDarkblue);
+    }
+      
+    .bola {
+        height:9px;
+        width:9px;
+        background-color:white;
+        position:absolute;
+        border-radius:10px;
+        margin-left:350px;
+        margin-top:1.5px;
+    }
+      
+    .gradient {
+        /*   background-color:green; */
+        position:absolute;
+        border-radius:10px;
+        height:13px;
+        width:362px;
+        margin:3px;
+        background: #ffa399; /* Old browsers */
+        background: -moz-linear-gradient(left,  #ffa399 0%, #ff4d97 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #ffa399 0%,#ff4d97 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #ffa399 0%,#ff4d97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa399', endColorstr='#ff4d97',GradientType=1 ); /* IE6-9 */
+    }
+
+    body {
+        background-image: url(./images/bg-desktop.png);
+        /* background-attachment: fixed; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-color: var(--veryDarkblue);
+        
+    }
+}
