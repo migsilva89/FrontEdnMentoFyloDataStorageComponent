@@ -36,17 +36,27 @@
     <!-- Info container -->
       <div class="info-container">
         <p class="description">
-          You’ve used 815 GB of your storage
+          You’ve used <span class="gb">815 GB</span> of your storage
         </p>  
         <div class="slider">
-          <input type="range" min="0" max="1000" value="715" class="slider" id="myRange">
-          <p>
-            0 GB
-            1000 GB
-          </p>
+          <!-- SLIDER -->
+          <div class="border">
+            <div class="gradient">
+              <div class="bola">
+              </div>
+            </div>
+          </div>
+          <!-- INFO DATA -->
+          <div class="info-data">
+            <div>0 GB</div> 
+            <div>1000 GB</div>
+          </div>
         </div>
-        <div class="gb-left">
-          185 GB Left
+        <!-- GIBABYTE LEFT -->
+        <div class="card">
+          <div class="gb-left">
+            <div class="card-text">185 <span class="card-text-next">gb left</span></div>
+          </div>
         </div>
       </div>
    

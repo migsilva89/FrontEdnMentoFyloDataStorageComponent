@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
  
 :root {
-    --pale-blue:hsl(243, 100%, 93%);
+    --pale-blue:hsl(245, 32%, 86%);
     --grayishBlue:hsl(229, 7%, 55%);
     --darkBlue:hsl(228, 56%, 26%);
     --veryDarkblue:hsl(229, 57%, 11%);
@@ -43,21 +43,49 @@
     border-radius: 12px 12px 12px 12px;
     position:relative;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
 }
 
 .gb-left {
     background: rgb(255, 255, 255);
     color: rgb(16, 14, 32);
-    padding: 10px;
+    padding: 12px 20px 12px 20px;
     text-align: center;
     position:absolute;
+    border-radius: 12px;
+}
+
+.card {
+    padding-top:12px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text-next{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:var(--grayishBlue);
+    padding-left:15px;
+    
 }
 
 .description {
     padding-left:15px;
     padding-right:15px;
-    font-size:13px;
+    font-size: 14px;
+    color: var(--pale-blue);
+    padding-bottom:5px;
+}
+
+.gb {
+    font-weight: bold;
 }
 
 .slider {
@@ -88,3 +116,45 @@
 .icon3 {
     padding: 14px 13px 11px 12px;
 }
+
+.border {
+    width:270px;
+    height:19px;
+    border-radius:10px;
+    background-color: var(--veryDarkblue);
+}
+  
+.bola {
+    height:9px;
+    width:9px;
+    background-color:white;
+    position:absolute;
+    border-radius:10px;
+    margin-left:183px;
+    margin-top:1.5px;
+}
+  
+.gradient {
+    /*   background-color:green; */
+    position:absolute;
+    border-radius:10px;
+    height:13px;
+    width:195px;
+    margin:3px;
+    background: #ffa399; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ffa399 0%, #ff4d97 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ffa399 0%,#ff4d97 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ffa399 0%,#ff4d97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa399', endColorstr='#ff4d97',GradientType=1 ); /* IE6-9 */
+  }
+
+  .info-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top:12px;
+    margin-bottom:12px;
+    font-size: 14px;
+    color: var(--pale-blue);
+    font-weight: bold;
+  }
+  
