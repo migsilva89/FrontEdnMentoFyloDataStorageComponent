@@ -10,8 +10,20 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Gradient with (https://www.colorzilla.com/gradient-editor/)
 
 ### What I learned
 
-...
+- How Use :root;
+- How Make CSS gradients;
+- How to make CSS shapes;
+- How to use absolute & relative; 
+
+Tips for improve will be much appreciated.
+
+Preview: https://fylo-data-storage-component-responsive.vercel.app/
+
+Thank you all.
+
+Miguel Silva
 
