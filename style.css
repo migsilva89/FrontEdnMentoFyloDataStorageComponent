@@ -45,6 +45,7 @@
     text-align: center;
     position:absolute;
     border-radius: 12px;
+    
 }
 
 .card {
@@ -158,7 +159,10 @@
     .main-container {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
+
+    
 
     .img-container {
         margin-right:18px;
@@ -167,6 +171,7 @@
 
     .info-container {
         width: 500px;
+        margin-top:35px;
     }
 
     .border {
@@ -199,6 +204,14 @@
         background: linear-gradient(to right,  #ffa399 0%,#ff4d97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa399', endColorstr='#ff4d97',GradientType=1 ); /* IE6-9 */
     }
+
+    .gb-left {
+        position: absolute;
+        left: 64%;
+        top:-20%;
+        text-align: center;
+        
+      }
 
     body {
         background-image: url(./images/bg-desktop.png);
